@@ -1,0 +1,6 @@
+projectKey=tuitionServicePortal
+serverUrl=http://localhost:9000
+serverVersion=7.6.0.21501
+dashboardUrl=http://localhost:9000/dashboard?id=tuitionServicePortal
+ceTaskId=AWlPLSdn1gzO9Q_IOFI8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWlPLSdn1gzO9Q_IOFI8

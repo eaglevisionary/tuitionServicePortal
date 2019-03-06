@@ -1,0 +1,153 @@
+
+
+  <!DOCTYPE html>
+  <html>
+
+
+  <head>
+    <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Custom fonts for this template -->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+   <!-- Custom styles for this template -->
+   <link href="css/home1.min.css" rel="stylesheet">
+   <link href="css/signup.css" rel="stylesheet">
+ </head>
+ <body text="white">
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+     <div class="container">
+       <a class="navbar-brand js-scroll-trigger" href="#page-top">Tution Service Portal</a>
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         Menu
+         <i class="fas fa-bars"></i>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav text-uppercase ml-auto">
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/mainpage">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/courses1">Courses</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="#about">Live stream</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/discussions">Discussion Forum</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/profile">Profile</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/logout">Logout</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="/mainpage">About Us</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+
+
+
+
+
+    <!--<script type="text/javascript">
+
+
+  // assign onclick handler to hazard checkbox
+  document.getElementById('not_disabled').onclick = function() {
+
+      // is hazard checkbox checked?
+      var not_disabled = this.checked; // true or false
+
+      // get list of radio buttons with name 'ship'
+      var check = this.form.elements['check'];
+
+      // loop through list of radio buttons
+      for (var i=0, len=check.length; i<len; i++) {
+          var r = check[i]; // current radio button
+
+          if ( not_disabled) { // hazard checkbox checked
+
+
+                  r.disabled = true; // disable
+              }
+
+           else { // hazard not checked
+              r.disabled = false; // no radios disabled
+          }
+
+      }
+  }
+
+
+       </script>
+  -->
+
+    <form class="modal-content" action="/register" method="post">
+
+      <div class="container">
+        <h1 style="color:white;">Sign Up</h1>
+        <p style="color:white;">Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="username"><b style="color:white;">Username</b></label>
+        <input type="text" placeholder="Username" name="username" required><br>
+
+        <label for="psw"><b style="color:white;">Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required><br>
+
+        <label for="psw-repeat"><b style="color:white;">Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="password-repeat" required><br>
+
+        <label for="email"><b style="color:white;">Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required><br>
+
+
+
+        <label for="address"><b style="color:white;">Address</b></label>
+        <input type="text" placeholder="Your Address" name="address" required><br>
+
+        <label for="phone"><b style="color:white;">Telephone</b></label>
+        <input type="tel" placeholder="+9489652507" name="phone" required><br>
+
+
+        <label for="dob"><b style="color:white;">Date-of-Birth</b></label>
+        <input type="date" placeholder="27/11/98" name="dob" required><br>
+
+        <label><b style="color:white;">Gender</b><br>
+        <div class="maxl">
+    <label class="radio inline">
+        <input type="radio" name="gender" value="male" checked>
+        <span> Male </span>
+     </label>
+    <label class="radio inline">
+        <input type="radio" name="gender" value="female">
+        <span>Female </span>
+    </label><br>
+
+
+
+
+  </div>
+
+
+
+
+
+
+     <p><button class="button" >Submit</button></p>
+  </div>
+
+
+  </body>
+  </html>
